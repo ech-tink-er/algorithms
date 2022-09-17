@@ -1,0 +1,4 @@
+﻿A <> Z S
+X <> S D C
+C <> D F V
+F <> D V

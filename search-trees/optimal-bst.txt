@@ -1,0 +1,4 @@
+Optimal Binary Search Trees (!= AVL) are BSTs
+providing optimal search time given access probabilities.
+They can be static or dynamic.
+Donald Knuth has a DP algorithm for constructing static ones.

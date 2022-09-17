@@ -1,0 +1,10 @@
+A#BBBBBBBB
+#######C#D
+EEEEEEE###
+######F#GG
+H#I#JJ###K
+HLI##M#N#K
+H#IOOOOOOK
+H#I#PPP##K
+##IQQQQQ#K
+RRI##SSS##

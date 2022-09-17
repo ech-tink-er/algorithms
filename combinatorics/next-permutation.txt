@@ -1,0 +1,52 @@
+Generating permutations in lexicographic order:
+
+Notes:
+1. The list starts in ascending order and ends in descending order.
+2. The process is recursive, finding the permutations of 2 numbers or the last 2 numbers is the same thing, they start in ascending order and end in descending order.
+3. The rightmost descending sequence in each permutation is complete, which means the previous number must be advanced to the next biggest from the descending sequence.
+
+Algorithm for finding the next lexicographic permutation:
+1. Find the rightmost index k, where arr[k] < arr[k + 1], this means that everything from k + 1 to n - 1 is in descending order and is complete,
+   therefore arr[k] must be advanced to the next biggest value from the descending sequence to the right.
+   This will be the rightmost i index where arr[i] > arr[k], becausue of the descending order.
+2. Swap arr[k] and arr[i] advancing arr[k].
+3. Considering that arr[k + 1] >= arr[i - 1] >= arr[i] > arr[k] >= arr[i + 1], that means that we still have a desending sequence from k + 1 to n - 1.
+4. Having a descending sequence means it is complete, however we haven't gone through its permutations,
+   so we reverse the sequence from k + 1 to n - 1 setting it to its starting order.
+
+1 2 3 4
+1 2 4 3
+1 3 2 4
+1 3 4 2
+1 4 2 3
+1 4 3 2
+2 1 3 4
+2 1 4 3
+2 3 1 4
+2 3 4 1
+2 4 1 3
+2 4 3 1
+3 1 2 4
+3 1 4 2
+3 2 1 4
+3 2 4 1
+3 4 1 2
+3 4 2 1
+4 1 2 3
+4 1 3 2
+4 2 1 3
+4 2 3 1
+4 3 1 2
+4 3 2 1
+-------
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 1 2
+3 2 1
+-------
+1 2
+2 1
+-------
+1

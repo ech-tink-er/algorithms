@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Recursion", "..\..\combinatorics\implementation\02.Recursion\02.Recursion.csproj", "{92EB0F44-A3CB-4275-B822-95FF508DBC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Combinatorics", "..\..\combinatorics\implementation\03.Combinatorics\03.Combinatorics.csproj", "{7BFF9C21-89BC-46F2-B76C-E110E53E6CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EB0F44-A3CB-4275-B822-95FF508DBC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EB0F44-A3CB-4275-B822-95FF508DBC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EB0F44-A3CB-4275-B822-95FF508DBC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EB0F44-A3CB-4275-B822-95FF508DBC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFF9C21-89BC-46F2-B76C-E110E53E6CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFF9C21-89BC-46F2-B76C-E110E53E6CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFF9C21-89BC-46F2-B76C-E110E53E6CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFF9C21-89BC-46F2-B76C-E110E53E6CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05950F61-0E42-408A-9992-681E129C5754}
+	EndGlobalSection
+EndGlobal
